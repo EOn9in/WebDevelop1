@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+        <title>Самопрезентация</title>
+        <link rel="stylesheet" href="style.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/inputmask.min.js"></script>
+        
+    </head>
+    
+    <body>
+        <!-- Navbar header section -->
+        <header class="header">
+            <nav class="navbar">
+                <div class="logo">
+                    <h2 class="logo-heading">Куликов Иван</h2>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars hamburger-icon"></i>
+                    <i class="fas fa-times cross-icon"></i>
+                </div>
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-list-items">
+                            <a class="links" href="#home">
+                                  Главная
+                              </a>
+                        </li>
+                        <li class="menu-list-items">
+                            <a class="links" href="#portfolio">
+                                  Факты
+                              </a>
+                        </li>
+                        <li class="menu-list-items">
+                            <a class="links" href="#about">
+                                  Мой 2024
+                              </a>
+                        </li>
+                        <li class="menu-list-items">
+                            <a class="links" href="#contact">
+                                  Свяжись со мной
+                              </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    <!-- Main hero banner -->
+<section id="home" class="hero">
+    <div class="intro">
+        <img src="res/My_photo.png" alt="Да, я!" class="hero-image" />
+        <div class="headings">
+            <h1 class="my-heading">Куликов Иван</h1>
+            <h4 class="sub-heading">
+                Как я докатился до жизни такой?
+            </h4>
+        </div>
+    </div>
+</section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 id="fact-heading" class="my-heading text-center">Немножко фактов</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="res/VyatSU.png" 
+                                 alt="VyatSU">
+                        </div>
+                        <h3 class="greet-heading blue-text">Студент ВятГУ</h3>
+                        <p class="small-para blue-text">Учусь на 4 курсе Колледжа ВятГУ по специальности «Информационные системы и программирование»</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="res/РСО.jpg" 
+                                 alt="RSO">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              МООО «РСО»
+                          </h3>
+                        <p class="small-para blue-text">Состою в Молодёжной общероссийской общественной организации «Российские студенческие отряды» с 2024 года</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="res/krokodil.png">
+                        </div>
+                        <h3 class="greet-heading blue-text">Мастер/Методист</h3>
+                        <p class="small-para blue-text">Являюсь мастером/методистом студенческого путинного отряда «Кайман» г.Киров, который функционирует на базе студенческих отрядов ВятГУ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">Достижения за 2024 год</h1>
+            <ul class="lead-para">
+                <li>Побывал на Камчатке</li>
+                <li>За два летних месяца заработал больше 170 тысяч рублей</li>
+                <li>Увидел Тихий океан</li>
+                <li>Выжил после 24 часов в вахтовке</li>
+                <li>Впервые в жизни полетал на вертолёте</li>
+                <li>Завёл друзей из разных регионов России</li>
+            </ul>
+            <p>
+                Не собираюсь останавливаться, дальше больше!
+                2025 год, жди...
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="res/vruch.png" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Свяжись со мной</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                
+                <form class="contact-form">
+                    <h1 id="fact-heading" class="greet-heading">Заполни форму</h1>
+                    <input class="form-controls" type="text" name="Имя" placeholder="Имя" required>
+                    <input class="form-controls" type="email" name="Email" placeholder="Email" required>
+                    <input class="form-controls" type="tel" name="Телефон" placeholder="Телефон" required>
+                    <input class="form-btn btn common-btn" type="submit" value="Отправить">
+                </form>
+                
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h2>
+                Контакты
+            </h2>
+            <p>Email: <a href="mailto:vankul77@gmail.com">vankul77@gmail.com</a></p>
+            <p>VK: <a href="https://vk.com/e_0n9in" target="_blank" rel="noopener noreferrer">https://vk.com/e_0n9in</a></p>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
